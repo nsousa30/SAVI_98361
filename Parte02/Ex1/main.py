@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
 import cv2
 import copy
 def main():
     #Load Image
-    image_original = cv2.imread('Images/lake.jpg')
+    image_original = cv2.imread('../images/lake.jpg')
 
 
     h,w,nc = image_original.shape
