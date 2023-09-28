@@ -13,6 +13,7 @@ def main():
     print(max_loc)
 
     h,w,_= template.shape
+    
     cv.rectangle(scene, (max_loc[0],max_loc[1]),(max_loc[0]+w, max_loc[1]+h),(0,255,0),4)
 
     cv.imshow('Scene',scene)
