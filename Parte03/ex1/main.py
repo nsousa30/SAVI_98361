@@ -6,6 +6,7 @@ import time
 
 def main():
 
+
     point_start = (687, 362)
     point_end = (847, 515)
 
